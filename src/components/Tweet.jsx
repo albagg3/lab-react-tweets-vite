@@ -10,8 +10,6 @@ function Tweet(props) {
         <div className="top">
           <span className="user">
           <User name={props.tweetinfo.user.name} handle={props.tweetinfo.user.handle} />
-            {/* <span className="name">{props.tweetinfo.user.name}</span>
-            <span className="handle">@{props.tweetinfo.user.handle}</span> */}
           </span>
 
           <span className="timestamp">{props.tweetinfo.timestamp}</span>
